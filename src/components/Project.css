@@ -1,0 +1,51 @@
+.container-project {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container-project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-project {
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.mascara-project {
+    position: absolute;
+    border-radius: 20px;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.mascara-project a {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.container-project:hover .mascara-project {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 151px;
+    transition: all 0.3s;
+}
+

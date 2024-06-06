@@ -1,0 +1,67 @@
+/* Primer div */
+.background-1 {
+  background-color: #fbe2e3;
+  position: absolute;
+  top: -6rem;
+  right: 11rem;
+  height: 31.25rem;
+  width: 31.25rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+  z-index: -10;
+}
+
+@media (min-width: 640px) {
+  .background-1 {
+      width: 68.75rem;
+  }
+}
+
+/* Segundo div */
+.background-2 {
+  background-color: #dbd7fb;
+  position: absolute;
+  top: -1rem;
+  left: -35rem;
+  height: 31.25rem;
+  width: 50rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+  z-index: -10;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 640px) {
+  .background-2 {
+      width: 68.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .background-2 {
+      left: -33rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .background-2 {
+      left: -28rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .background-2 {
+      left: -15rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .background-2 {
+      left: -5rem;
+  }
+}
