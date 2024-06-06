@@ -20,7 +20,7 @@ function App() {
       <About />
       <Skills />
       <h1 style={{marginBottom:'30px'}}>Proyectos</h1>
-      <div style={{display:'flex', flexWrap:'wrap', width:'950px', gap:'20px', justifyContent:'center'}}>
+      <div className='container-projects'>
         <Project title='SGL' image={sgl} linkGithub='https://github.com/FrancoArmanasco2000/SGL_RETAIL'/>
         <Project title='Notepad' image={notepad} linkPage='http://notepad-farm.surge.sh/' linkGithub='https://github.com/FrancoArmanasco2000/Notepad'/>
         <Project title='FedeFit' image={fedefit} linkPage='https://fedefit.surge.sh/'/>

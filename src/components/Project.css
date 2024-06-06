@@ -40,8 +40,6 @@
     font-size: 30px;
 }
 
-
-
 .container-project:hover .mascara-project {
     background-color: rgba(0, 0, 0, 0.5);
     width: 300px;
@@ -49,3 +47,8 @@
     transition: all 0.3s;
 }
 
+@media screen and (max-width: 768px){
+    .container-project {
+        flex-direction: column;
+    }
+}

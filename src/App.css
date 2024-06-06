@@ -36,6 +36,14 @@
   flex-direction: column;
 }
 
+.container-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 @media (min-width: 640px) {
   .background-2 {
       width: 68.75rem;
