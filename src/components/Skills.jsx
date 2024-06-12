@@ -1,6 +1,8 @@
 import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaJava, FaGit } from "react-icons/fa";
 import { SiSpringboot, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
+import { SiSpringsecurity } from "react-icons/si";
+import { TbBrandKotlin } from "react-icons/tb";
 import { DiMongodb, DiPostgresql } from "react-icons/di";
 import { Skill } from './Skill'
 import './Skills.css'
@@ -57,6 +59,14 @@ export function Skills () {
         {
             name: 'Typescript',
             icon: <SiTypescript />
+        },
+        {
+            name: 'Spring Security',
+            icon: <SiSpringsecurity />
+        },
+        {
+            name: 'Kotlin',
+            icon: <TbBrandKotlin />
         }
     ]
 
