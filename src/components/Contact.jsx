@@ -6,9 +6,11 @@ import { useState } from 'react';
 export function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setIsLoading(true);
 
         try {
             const response = await fetch('https://backend-email-nppy.onrender.com/send-email', {
@@ -35,6 +37,8 @@ export function Contact() {
         } catch (error) {
             console.error('Error:', error);
             alert('Error al enviar el email.');
+        } finally {
+            setIsLoading(false);
         }
     };
 
@@ -60,7 +64,10 @@ export function Contact() {
             <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.9 }}
-            >Enviar <IoSend /></motion.button>
+                disabled={isLoading}
+            >
+                {isLoading ? 'Enviando...' : <>Enviar <IoSend /></>}
+            </motion.button>
         </form>
     );
 }
