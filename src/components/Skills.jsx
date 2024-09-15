@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaJava, FaGit } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaJava, FaGit, FaAngular } from "react-icons/fa";
 import { SiSpringboot, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiSpringsecurity } from "react-icons/si";
@@ -65,8 +65,8 @@ export function Skills () {
             icon: <SiSpringsecurity />
         },
         {
-            name: 'Kotlin',
-            icon: <TbBrandKotlin />
+            name: 'Angular',
+            icon: <FaAngular />
         }
     ]
 
