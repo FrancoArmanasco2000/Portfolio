@@ -8,6 +8,7 @@ import { Project } from './components/Project'
 import sgl from './assets/sgl.jpeg'
 import notepad from './assets/notepad.jpg'
 import fedefit from './assets/fedefit.jpg'
+import calendario from './assets/calendario.jpg'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       <h1 style={{marginBottom:'30px'}}>Proyectos (BETA)</h1>
       <div className='container-projects'>
         <Project title='SGL' image={sgl} linkGithub='https://github.com/FrancoArmanasco2000/SGL_RETAIL'/>
-        <Project title='Notepad' image={notepad} linkPage='http://notepad-farm.surge.sh/' linkGithub='https://github.com/FrancoArmanasco2000/Notepad'/>
+        <Project title='Calendario' image={calendario} linkGithub='https://github.com/FrancoArmanasco2000/calendario'/>
         <Project title='FedeFit' image={fedefit} linkPage='https://fedefit.surge.sh/'/>
       </div>
       <Contact />
