@@ -23,7 +23,7 @@ function App() {
       <h1 style={{marginBottom:'30px'}}>Proyectos (BETA)</h1>
       <div className='container-projects'>
         <Project title='SGL' image={sgl} linkGithub='https://github.com/FrancoArmanasco2000/SGL_RETAIL'/>
-        <Project title='Calendario' image={calendario} linkGithub='https://github.com/FrancoArmanasco2000/calendario'/>
+        <Project title='Calendario' image={calendario} linkPage='https://calendario-ashen.vercel.app/' linkGithub='https://github.com/FrancoArmanasco2000/calendario'/>
         <Project title='FedeFit' image={fedefit} linkPage='https://fedefit.surge.sh/'/>
       </div>
       <Contact />
