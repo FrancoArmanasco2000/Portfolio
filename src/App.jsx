@@ -9,6 +9,7 @@ import sgl from './assets/sgl.jpeg'
 import notepad from './assets/notepad.jpg'
 import fedefit from './assets/fedefit.jpg'
 import calendario from './assets/calendario.jpg'
+import tienda from './assets/tienda.jpg'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Project title='SGL' image={sgl} linkGithub='https://github.com/FrancoArmanasco2000/SGL_RETAIL'/>
         <Project title='Calendario' image={calendario} linkPage='https://calendario-ashen.vercel.app/' linkGithub='https://github.com/FrancoArmanasco2000/calendario'/>
         <Project title='FedeFit' image={fedefit} linkPage='https://fedefit.surge.sh/'/>
+        <Project title='Tienda' image={tienda} linkPage='https://tienda-seven-steel.vercel.app/' linkGithub='https://github.com/FrancoArmanasco2000/Tienda'/>
       </div>
       <Contact />
     </div>
